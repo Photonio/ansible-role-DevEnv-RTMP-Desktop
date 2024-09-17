@@ -49,4 +49,4 @@ galaxy_info:
 
 dependencies:
 - UniInc.Psutil
-#- UniInc.Youtube-dl
+- UniInc.Youtube-dl
