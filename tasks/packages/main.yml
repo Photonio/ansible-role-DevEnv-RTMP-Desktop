@@ -1,0 +1,9 @@
+---
+# tasks file for try
+- name: Install a list of packages
+  ansible.builtin.apt:
+    pkg:
+    - ffmpeg
+    - obs-studio
+    - vlc
+  become: true

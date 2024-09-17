@@ -1,2 +1,6 @@
 ---
-# tasks file for try
+- name: OS specific
+  include_tasks: "{{ item }}"
+  loop:
+  - Gnome/main.yml
+  - packages/main.yml
