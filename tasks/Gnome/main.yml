@@ -1,3 +1,6 @@
 ---
 - name: Gsettings
-  include_tasks: power.yml
+  include_tasks: "{{ item }}.yml"
+  loop:
+  - ergonomic
+  - power
