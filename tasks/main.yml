@@ -1,6 +1,7 @@
 ---
-- name: OS specific
+- name: include
   include_tasks: "{{ item }}"
   loop:
   - Gnome/main.yml
   - packages/main.yml
+  - role after/main.yml

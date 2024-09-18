@@ -1,2 +1,2 @@
 ---
-# vars file for try
+gnome_favorite_apps: "['org.gnome.Terminal.desktop', 'com.obsproject.Studio.desktop', 'vlc.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.TextEditor.desktop']"
